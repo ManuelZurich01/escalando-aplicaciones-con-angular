@@ -10,10 +10,11 @@ const routes: Routes = [
     path: 'login',
     component: LoginComponent
   },
-  {
-    path: 'register',
-    loadChildren: './pages/register/register.module#RegisterModule'
-  },
+
+   {path: 'register',
+    loadChildren: './pages/register/register.module#RegisterModule',
+   },
+
   {
     path: '',
     loadChildren: './pages/home/home.module#HomeModule',
